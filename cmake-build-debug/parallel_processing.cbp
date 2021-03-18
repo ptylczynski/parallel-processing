@@ -88,6 +88,9 @@
 		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_reduction_pi.cpp">
 			<Option target="parallel_processing"/>
 		</Unit>
+		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_tab_pi.cpp">
+			<Option target="parallel_processing"/>
+		</Unit>
 		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
