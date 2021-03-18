@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/parallel_processing.dir/lab1/main.cpp.o"
+  "CMakeFiles/parallel_processing.dir/lab1/paralel_atomic_pi.cpp.o"
+  "CMakeFiles/parallel_processing.dir/lab1/parallel_pi.cpp.o"
   "parallel_processing"
   "parallel_processing.pdb"
 )

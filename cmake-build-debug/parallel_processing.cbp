@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/lab1/main.cpp">
+		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/lab1/paralel_atomic_pi.cpp">
+			<Option target="parallel_processing"/>
+		</Unit>
+		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_pi.cpp">
 			<Option target="parallel_processing"/>
 		</Unit>
 		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/CMakeLists.txt">
