@@ -4,7 +4,7 @@
 - ilość rdzeni: 4
 - ilość wątków logicznych: 8
 - Hyper-Threading: tak
-- System Operacyjny: Windows 10 2004
+- System Operacyjny: Windows 10 20H2
 
 ## Wersja 1 - przetwarzanie sekwencyjne
 - czas obliczeń: 109ms
