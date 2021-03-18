@@ -16,7 +16,6 @@ int main(int argc, char* argv[])
     int i;
     step = 1./(double)num_steps;
     start = clock();
-    double omp_time_start = omp_get_wtime();
     for (i=0; i<num_steps; i++)
     {
         x = (i + .5)*step;
@@ -25,10 +24,8 @@ int main(int argc, char* argv[])
 
     pi = sum*step;
     stop = clock();
-    double omp_time_stop = omp_get_wtime();
 
     printf("Wartosc liczby PI wynosi %15.12f\n",pi);
     printf("Czas przetwarzania wynosi %f ms\n",((double)(stop - start)/1000.0));
-    printf("Czas przetwarzania wynosi %f ms\n",(omp_time_stop - omp_time_start) * 1000);
     return 0;
 }
