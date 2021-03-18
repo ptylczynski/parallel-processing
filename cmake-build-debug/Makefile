@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /home/piotr/Documents/c/computer-networks/parallel-processing
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/145/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -97,6 +86,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/145/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,73 +130,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named parallel_processing
-
-# Build rule for target.
-parallel_processing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parallel_processing
-.PHONY : parallel_processing
-
-# fast build rule for target.
-parallel_processing/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/build
-.PHONY : parallel_processing/fast
-
-lab1/parallel_local_pi.o: lab1/parallel_local_pi.cpp.o
-
-.PHONY : lab1/parallel_local_pi.o
-
-# target to build an object file
-lab1/parallel_local_pi.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o
-.PHONY : lab1/parallel_local_pi.cpp.o
-
-lab1/parallel_local_pi.i: lab1/parallel_local_pi.cpp.i
-
-.PHONY : lab1/parallel_local_pi.i
-
-# target to preprocess a source file
-lab1/parallel_local_pi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.i
-.PHONY : lab1/parallel_local_pi.cpp.i
-
-lab1/parallel_local_pi.s: lab1/parallel_local_pi.cpp.s
-
-.PHONY : lab1/parallel_local_pi.s
-
-# target to generate assembly for a file
-lab1/parallel_local_pi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.s
-.PHONY : lab1/parallel_local_pi.cpp.s
-
-lab1/parallel_tab_pi.o: lab1/parallel_tab_pi.cpp.o
-
-.PHONY : lab1/parallel_tab_pi.o
-
-# target to build an object file
-lab1/parallel_tab_pi.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o
-.PHONY : lab1/parallel_tab_pi.cpp.o
-
-lab1/parallel_tab_pi.i: lab1/parallel_tab_pi.cpp.i
-
-.PHONY : lab1/parallel_tab_pi.i
-
-# target to preprocess a source file
-lab1/parallel_tab_pi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.i
-.PHONY : lab1/parallel_tab_pi.cpp.i
-
-lab1/parallel_tab_pi.s: lab1/parallel_tab_pi.cpp.s
-
-.PHONY : lab1/parallel_tab_pi.s
-
-# target to generate assembly for a file
-lab1/parallel_tab_pi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.s
-.PHONY : lab1/parallel_tab_pi.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,13 +138,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... parallel_processing"
-	@echo "... lab1/parallel_local_pi.o"
-	@echo "... lab1/parallel_local_pi.i"
-	@echo "... lab1/parallel_local_pi.s"
-	@echo "... lab1/parallel_tab_pi.o"
-	@echo "... lab1/parallel_tab_pi.i"
-	@echo "... lab1/parallel_tab_pi.s"
 .PHONY : help
 
 

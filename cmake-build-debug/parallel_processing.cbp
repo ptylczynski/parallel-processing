@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,57 +27,17 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="parallel_processing">
-				<Option output="/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/parallel_processing" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 parallel_processing"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="parallel_processing/fast">
-				<Option output="/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/parallel_processing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 parallel_processing/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_local_pi.cpp">
-			<Option target="parallel_processing"/>
-		</Unit>
-		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_tab_pi.cpp">
-			<Option target="parallel_processing"/>
-		</Unit>
 		<Unit filename="/home/piotr/Documents/c/computer-networks/parallel-processing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

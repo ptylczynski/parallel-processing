@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/piotr/Documents/c/computer-networks/parallel-processing
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/parallel_processing.dir/all
+all:
 
 .PHONY : all
 
@@ -83,36 +83,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/parallel_processing.dir/clean
+clean:
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/parallel_processing.dir
-
-# All Build rule for target.
-CMakeFiles/parallel_processing.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target parallel_processing"
-.PHONY : CMakeFiles/parallel_processing.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/parallel_processing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/parallel_processing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/parallel_processing.dir/rule
-
-# Convenience name for target.
-parallel_processing: CMakeFiles/parallel_processing.dir/rule
-
-.PHONY : parallel_processing
-
-# clean rule for target.
-CMakeFiles/parallel_processing.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/clean
-.PHONY : CMakeFiles/parallel_processing.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

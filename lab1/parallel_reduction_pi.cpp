@@ -21,13 +21,14 @@ int main(int argc, char* argv[])
     step = 1./(double)num_steps;
     int i;
     start = clock();
-#pragma omp parallel for reduction(+:sum)
-    for (i = 0; i<num_steps; i++)
+#pragma omp parallel
     {
-        double x = (i + .5)*step;
-        sum = sum + 4.0/(1.+ x*x);
+#pragma omp for reduction(+:sum)
+        for (i = 0; i < num_steps; i++) {
+            double x = (i + .5) * step;
+            sum = sum + 4.0 / (1. + x * x);
+        }
     }
-
     pi = sum*step;
     stop = clock();
 
