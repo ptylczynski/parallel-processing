@@ -143,59 +143,32 @@ parallel_processing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/build
 .PHONY : parallel_processing/fast
 
-lab1/paralel_atomic_pi.o: lab1/paralel_atomic_pi.cpp.o
+lab1/parallel_local_pi.o: lab1/parallel_local_pi.cpp.o
 
-.PHONY : lab1/paralel_atomic_pi.o
-
-# target to build an object file
-lab1/paralel_atomic_pi.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/paralel_atomic_pi.cpp.o
-.PHONY : lab1/paralel_atomic_pi.cpp.o
-
-lab1/paralel_atomic_pi.i: lab1/paralel_atomic_pi.cpp.i
-
-.PHONY : lab1/paralel_atomic_pi.i
-
-# target to preprocess a source file
-lab1/paralel_atomic_pi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/paralel_atomic_pi.cpp.i
-.PHONY : lab1/paralel_atomic_pi.cpp.i
-
-lab1/paralel_atomic_pi.s: lab1/paralel_atomic_pi.cpp.s
-
-.PHONY : lab1/paralel_atomic_pi.s
-
-# target to generate assembly for a file
-lab1/paralel_atomic_pi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/paralel_atomic_pi.cpp.s
-.PHONY : lab1/paralel_atomic_pi.cpp.s
-
-lab1/parallel_reduction_pi.o: lab1/parallel_reduction_pi.cpp.o
-
-.PHONY : lab1/parallel_reduction_pi.o
+.PHONY : lab1/parallel_local_pi.o
 
 # target to build an object file
-lab1/parallel_reduction_pi.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_reduction_pi.cpp.o
-.PHONY : lab1/parallel_reduction_pi.cpp.o
+lab1/parallel_local_pi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o
+.PHONY : lab1/parallel_local_pi.cpp.o
 
-lab1/parallel_reduction_pi.i: lab1/parallel_reduction_pi.cpp.i
+lab1/parallel_local_pi.i: lab1/parallel_local_pi.cpp.i
 
-.PHONY : lab1/parallel_reduction_pi.i
+.PHONY : lab1/parallel_local_pi.i
 
 # target to preprocess a source file
-lab1/parallel_reduction_pi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_reduction_pi.cpp.i
-.PHONY : lab1/parallel_reduction_pi.cpp.i
+lab1/parallel_local_pi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.i
+.PHONY : lab1/parallel_local_pi.cpp.i
 
-lab1/parallel_reduction_pi.s: lab1/parallel_reduction_pi.cpp.s
+lab1/parallel_local_pi.s: lab1/parallel_local_pi.cpp.s
 
-.PHONY : lab1/parallel_reduction_pi.s
+.PHONY : lab1/parallel_local_pi.s
 
 # target to generate assembly for a file
-lab1/parallel_reduction_pi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_reduction_pi.cpp.s
-.PHONY : lab1/parallel_reduction_pi.cpp.s
+lab1/parallel_local_pi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.s
+.PHONY : lab1/parallel_local_pi.cpp.s
 
 lab1/parallel_tab_pi.o: lab1/parallel_tab_pi.cpp.o
 
@@ -233,12 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... parallel_processing"
-	@echo "... lab1/paralel_atomic_pi.o"
-	@echo "... lab1/paralel_atomic_pi.i"
-	@echo "... lab1/paralel_atomic_pi.s"
-	@echo "... lab1/parallel_reduction_pi.o"
-	@echo "... lab1/parallel_reduction_pi.i"
-	@echo "... lab1/parallel_reduction_pi.s"
+	@echo "... lab1/parallel_local_pi.o"
+	@echo "... lab1/parallel_local_pi.i"
+	@echo "... lab1/parallel_local_pi.s"
 	@echo "... lab1/parallel_tab_pi.o"
 	@echo "... lab1/parallel_tab_pi.i"
 	@echo "... lab1/parallel_tab_pi.s"

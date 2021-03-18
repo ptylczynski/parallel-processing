@@ -94,12 +94,12 @@ clean: CMakeFiles/parallel_processing.dir/clean
 CMakeFiles/parallel_processing.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target parallel_processing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target parallel_processing"
 .PHONY : CMakeFiles/parallel_processing.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/parallel_processing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/parallel_processing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/parallel_processing.dir/rule

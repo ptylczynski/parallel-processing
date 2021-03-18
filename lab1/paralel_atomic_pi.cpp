@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
     for (i = 0; i<num_steps; i++)
     {
         x = (i + .5)*step;
+#pragma omp atomic
         sum = sum + 4.0/(1.+ x*x);
     }
 

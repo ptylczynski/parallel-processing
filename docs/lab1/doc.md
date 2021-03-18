@@ -51,4 +51,15 @@ W wyniku "lokalizacji" zmiennych czas przetwarzania równoległego, poraz pierws
 ## Wersja 5 - redukcja
 Jedyna zmiana zachodząca w kodzie to dodanie nowej części `reduction(+:sum)` do istniejącej dyrektywy `#pragma omp parallel for`. Nie powoduje to istotnych zmian w generowanym kodzie, dlatego wszystkie wyniki z Wersji 4 pozostają aktualne.
 
-## Wersja 6 - 
+## Wersja 6 - tablica
+- czas obliczeń:
+  - 2 wątki: 
+  - 4 wątki:
+  - 8 wątków: 
+- lokalność:
+  - zmienne lokalne: `i`, `x`
+  - zmienne współdzielone: *wszystkie pozostałe*
+-  przyspieszenie:
+   -  tak
+
+Zastosowanie tablicy do przechowywania obliczeń wykonywanych w poszczególnych wątkach skraca czas wykonywania programu równoległego. Należy jednak pamiętać o dobraniu odpowiedzniego rozmiaru tablicy, oraz poprawności jej wykorzystania. Poszczególne wątki nie mogą pracować na adresach tablicy znajdujących się za blisko - nie bliżej niż długość lini adresowej dzielonej przez wielkość danej. Jeżeli nie zapewnimy odpowiedniej odległości to wątek aktualizując swoją zmienną w tablicy może "najechać" na zmienną innego wątku - uniważnić jego dane - zapis. Dzieje się tak ponieważ zmienna innego wątku znajdzie się na lini adresowej wątku wykonującego aktualizację. 
