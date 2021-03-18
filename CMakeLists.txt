@@ -3,4 +3,6 @@ project(parallel_processing)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(parallel_processing main.cpp)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
+
+add_executable(parallel_processing lab1/main.cpp)

@@ -143,32 +143,32 @@ parallel_processing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/build
 .PHONY : parallel_processing/fast
 
-main.o: main.cpp.o
+lab1/main.o: lab1/main.cpp.o
 
-.PHONY : main.o
+.PHONY : lab1/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/main.cpp.o
-.PHONY : main.cpp.o
+lab1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/main.cpp.o
+.PHONY : lab1/main.cpp.o
 
-main.i: main.cpp.i
+lab1/main.i: lab1/main.cpp.i
 
-.PHONY : main.i
+.PHONY : lab1/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/main.cpp.i
-.PHONY : main.cpp.i
+lab1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/main.cpp.i
+.PHONY : lab1/main.cpp.i
 
-main.s: main.cpp.s
+lab1/main.s: lab1/main.cpp.s
 
-.PHONY : main.s
+.PHONY : lab1/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/main.cpp.s
-.PHONY : main.cpp.s
+lab1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/main.cpp.s
+.PHONY : lab1/main.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... parallel_processing"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... lab1/main.o"
+	@echo "... lab1/main.i"
+	@echo "... lab1/main.s"
 .PHONY : help
 
 
