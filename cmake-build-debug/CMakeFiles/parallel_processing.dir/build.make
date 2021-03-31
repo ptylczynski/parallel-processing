@@ -63,10 +63,10 @@ RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piotr/Documents/c/computer-networks/parallel-processing
+CMAKE_SOURCE_DIR = /home/piotr/Documents/parallel-processing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Documents/parallel-processing/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/parallel_processing.dir/depend.make
@@ -77,30 +77,30 @@ include CMakeFiles/parallel_processing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/parallel_processing.dir/flags.make
 
-CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o: CMakeFiles/parallel_processing.dir/flags.make
-CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o: ../lab1/parallel_local_pi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o -c /home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_local_pi.cpp
+CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o: CMakeFiles/parallel_processing.dir/flags.make
+CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o: ../lab1/parallel_tab_pi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Documents/parallel-processing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o -c /home/piotr/Documents/parallel-processing/lab1/parallel_tab_pi.cpp
 
-CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_local_pi.cpp > CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.i
+CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Documents/parallel-processing/lab1/parallel_tab_pi.cpp > CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.i
 
-CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_local_pi.cpp -o CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.s
+CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Documents/parallel-processing/lab1/parallel_tab_pi.cpp -o CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.s
 
 # Object files for target parallel_processing
 parallel_processing_OBJECTS = \
-"CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o"
+"CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o"
 
 # External object files for target parallel_processing
 parallel_processing_EXTERNAL_OBJECTS =
 
-parallel_processing: CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o
+parallel_processing: CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o
 parallel_processing: CMakeFiles/parallel_processing.dir/build.make
 parallel_processing: CMakeFiles/parallel_processing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable parallel_processing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Documents/parallel-processing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable parallel_processing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parallel_processing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/parallel_processing.dir/clean:
 .PHONY : CMakeFiles/parallel_processing.dir/clean
 
 CMakeFiles/parallel_processing.dir/depend:
-	cd /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Documents/c/computer-networks/parallel-processing /home/piotr/Documents/c/computer-networks/parallel-processing /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug /home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles/parallel_processing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piotr/Documents/parallel-processing/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Documents/parallel-processing /home/piotr/Documents/parallel-processing /home/piotr/Documents/parallel-processing/cmake-build-debug /home/piotr/Documents/parallel-processing/cmake-build-debug /home/piotr/Documents/parallel-processing/cmake-build-debug/CMakeFiles/parallel_processing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/parallel_processing.dir/depend
 

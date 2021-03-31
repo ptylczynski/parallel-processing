@@ -1,1 +1,1 @@
-/usr/bin/c++   -fopenmp -g   CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o  -o parallel_processing 
+/usr/bin/c++   -fopenmp -g   CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o  -o parallel_processing 

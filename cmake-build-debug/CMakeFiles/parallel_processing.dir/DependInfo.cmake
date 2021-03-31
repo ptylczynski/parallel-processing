@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/piotr/Documents/c/computer-networks/parallel-processing/lab1/parallel_local_pi.cpp" "/home/piotr/Documents/c/computer-networks/parallel-processing/cmake-build-debug/CMakeFiles/parallel_processing.dir/lab1/parallel_local_pi.cpp.o"
+  "/home/piotr/Documents/parallel-processing/lab1/parallel_tab_pi.cpp" "/home/piotr/Documents/parallel-processing/cmake-build-debug/CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

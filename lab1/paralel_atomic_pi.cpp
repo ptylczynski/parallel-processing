@@ -15,7 +15,7 @@ double step;
 
 int main(int argc, char* argv[])
 {
-    omp_set_num_threads(8);
+    omp_set_num_threads(2);
     clock_t start, stop;
     double x, pi, sum=0.0;
     step = 1./(double)num_steps;
