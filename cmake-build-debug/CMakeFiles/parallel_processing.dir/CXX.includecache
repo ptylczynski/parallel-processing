@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/piotr/Documents/parallel-processing/lab1/parallel_tab_pi.cpp
+/home/piotr/Documents/parallel-processing/lab1/parallel_tab_exp_pi.cpp
 stdio.h
 -
 time.h

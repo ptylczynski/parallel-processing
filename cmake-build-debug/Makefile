@@ -143,32 +143,32 @@ parallel_processing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/build
 .PHONY : parallel_processing/fast
 
-lab1/parallel_tab_pi.o: lab1/parallel_tab_pi.cpp.o
+lab1/parallel_tab_exp_pi_PI7.o: lab1/parallel_tab_exp_pi_PI7.cpp.o
 
-.PHONY : lab1/parallel_tab_pi.o
+.PHONY : lab1/parallel_tab_exp_pi_PI7.o
 
 # target to build an object file
-lab1/parallel_tab_pi.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.o
-.PHONY : lab1/parallel_tab_pi.cpp.o
+lab1/parallel_tab_exp_pi_PI7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_exp_pi_PI7.cpp.o
+.PHONY : lab1/parallel_tab_exp_pi_PI7.cpp.o
 
-lab1/parallel_tab_pi.i: lab1/parallel_tab_pi.cpp.i
+lab1/parallel_tab_exp_pi_PI7.i: lab1/parallel_tab_exp_pi_PI7.cpp.i
 
-.PHONY : lab1/parallel_tab_pi.i
+.PHONY : lab1/parallel_tab_exp_pi_PI7.i
 
 # target to preprocess a source file
-lab1/parallel_tab_pi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.i
-.PHONY : lab1/parallel_tab_pi.cpp.i
+lab1/parallel_tab_exp_pi_PI7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_exp_pi_PI7.cpp.i
+.PHONY : lab1/parallel_tab_exp_pi_PI7.cpp.i
 
-lab1/parallel_tab_pi.s: lab1/parallel_tab_pi.cpp.s
+lab1/parallel_tab_exp_pi_PI7.s: lab1/parallel_tab_exp_pi_PI7.cpp.s
 
-.PHONY : lab1/parallel_tab_pi.s
+.PHONY : lab1/parallel_tab_exp_pi_PI7.s
 
 # target to generate assembly for a file
-lab1/parallel_tab_pi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_pi.cpp.s
-.PHONY : lab1/parallel_tab_pi.cpp.s
+lab1/parallel_tab_exp_pi_PI7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_processing.dir/build.make CMakeFiles/parallel_processing.dir/lab1/parallel_tab_exp_pi_PI7.cpp.s
+.PHONY : lab1/parallel_tab_exp_pi_PI7.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... parallel_processing"
-	@echo "... lab1/parallel_tab_pi.o"
-	@echo "... lab1/parallel_tab_pi.i"
-	@echo "... lab1/parallel_tab_pi.s"
+	@echo "... lab1/parallel_tab_exp_pi_PI7.o"
+	@echo "... lab1/parallel_tab_exp_pi_PI7.i"
+	@echo "... lab1/parallel_tab_exp_pi_PI7.s"
 .PHONY : help
 
 

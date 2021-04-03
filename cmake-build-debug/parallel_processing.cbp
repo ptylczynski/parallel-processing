@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/piotr/Documents/parallel-processing/lab1/parallel_tab_pi.cpp">
+		<Unit filename="/home/piotr/Documents/parallel-processing/lab1/parallel_tab_exp_pi_PI7.cpp">
 			<Option target="parallel_processing"/>
 		</Unit>
 		<Unit filename="/home/piotr/Documents/parallel-processing/CMakeLists.txt">
